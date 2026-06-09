@@ -1,5 +1,6 @@
 
 import './App.css'
+import CompFun from './CompFun'
 
 function App() {
  
@@ -8,6 +9,8 @@ function App() {
     <>
    <h1>Learn react</h1>
    <h2>By : Muhammad Jumshaid</h2>
+
+   <CompFun/>
    </>
   )
 }
