@@ -1,16 +1,16 @@
 
 import './App.css'
-import CompFun from './CompFun'
+import CompFun, { flower, Provinces } from './CompFun'
 
 function App() {
  
 
   return (
     <>
-   <h1>Learn react</h1>
-   <h2>By : Muhammad Jumshaid</h2>
-
+   <h1 style={{color : 'chocolate' }}>Learn react (By) Muhammad Jumshaid</h1>
    <CompFun/>
+   <Provinces/>
+   {flower}
    </>
   )
 }
