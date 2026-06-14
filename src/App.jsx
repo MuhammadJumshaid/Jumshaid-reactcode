@@ -1,6 +1,7 @@
 
 import './App.css'
-import WildLife from './WildLife'
+import JsCode from './JsCode.jsx'
+// import WildLife from './WildLife'
 // import CompFun, { flower, Provinces } from './CompFun'
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
    {/* <CompFun/> */}
    {/* <Provinces/> */}
    {/* {flower} */}
-   <WildLife/>
+   {/* <WildLife/> */}
+   <JsCode/>
    </>
   )
 }
