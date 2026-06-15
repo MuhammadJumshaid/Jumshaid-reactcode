@@ -1,5 +1,6 @@
 
 import './App.css'
+import EventFunctions from './EventFunctions.jsx'
 import JsCode from './JsCode.jsx'
 // import WildLife from './WildLife'
 // import CompFun, { flower, Provinces } from './CompFun'
@@ -14,7 +15,8 @@ function App() {
    {/* <Provinces/> */}
    {/* {flower} */}
    {/* <WildLife/> */}
-   <JsCode/>
+   {/* <JsCode/> */}
+   <EventFunctions/>
    </>
   )
 }
