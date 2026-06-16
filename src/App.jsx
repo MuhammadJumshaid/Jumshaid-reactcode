@@ -2,6 +2,7 @@
 import './App.css'
 import EventFunctions from './EventFunctions.jsx'
 import JsCode from './JsCode.jsx'
+import StateInReact from './StateInReact.jsx'
 // import WildLife from './WildLife'
 // import CompFun, { flower, Provinces } from './CompFun'
 
@@ -16,7 +17,8 @@ function App() {
    {/* {flower} */}
    {/* <WildLife/> */}
    {/* <JsCode/> */}
-   <EventFunctions/>
+   {/* <EventFunctions/> */}
+<StateInReact/>
    </>
   )
 }
