@@ -1,9 +1,10 @@
 
 import './App.css'
-import Assignment1 from './Assignment1.jsx'
+import Assignment2 from './Assignment2'
+// import Assignment1 from './Assignment1.jsx'
 // import EventFunctions from './EventFunctions.jsx'
 // import JsCode from './JsCode.jsx'
-import StateInReact from './StateInReact.jsx'
+// import StateInReact from './StateInReact.jsx'
 // import WildLife from './WildLife'
 // import CompFun, { flower, Provinces } from './CompFun'
 
@@ -20,7 +21,8 @@ function App() {
    {/* <JsCode/> */}
    {/* <EventFunctions/> */}
 {/* <StateInReact/> */}
-<Assignment1/>
+{/* <Assignment1/> */}
+<Assignment2/>
    </>
   )
 }
