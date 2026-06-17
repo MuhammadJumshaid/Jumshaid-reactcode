@@ -1,7 +1,8 @@
 
 import './App.css'
-import EventFunctions from './EventFunctions.jsx'
-import JsCode from './JsCode.jsx'
+import Assignment1 from './Assignment1.jsx'
+// import EventFunctions from './EventFunctions.jsx'
+// import JsCode from './JsCode.jsx'
 import StateInReact from './StateInReact.jsx'
 // import WildLife from './WildLife'
 // import CompFun, { flower, Provinces } from './CompFun'
@@ -18,7 +19,8 @@ function App() {
    {/* <WildLife/> */}
    {/* <JsCode/> */}
    {/* <EventFunctions/> */}
-<StateInReact/>
+{/* <StateInReact/> */}
+<Assignment1/>
    </>
   )
 }
