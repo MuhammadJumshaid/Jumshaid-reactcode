@@ -1,6 +1,7 @@
 
 import './App.css'
-import Assignment2 from './Assignment2'
+// import Assignment2 from './Assignment2'
+import ToggleButton from './ToggleButton'
 // import Assignment1 from './Assignment1.jsx'
 // import EventFunctions from './EventFunctions.jsx'
 // import JsCode from './JsCode.jsx'
@@ -22,7 +23,8 @@ function App() {
    {/* <EventFunctions/> */}
 {/* <StateInReact/> */}
 {/* <Assignment1/> */}
-<Assignment2/>
+{/* <Assignment2/> */}
+<ToggleButton/>
    </>
   )
 }
