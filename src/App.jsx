@@ -1,6 +1,7 @@
 
 import './App.css'
-import Assignment_3 from './Assignment_3'
+// import Assignment_3 from './Assignment_3'
+import PropsInReact from './PropsInReact'
 // import Assignment2 from './Assignment2'
 // import ToggleButton from './ToggleButton'
 // import Assignment1 from './Assignment1.jsx'
@@ -11,7 +12,7 @@ import Assignment_3 from './Assignment_3'
 // import CompFun, { flower, Provinces } from './CompFun'
 
 function App() {
- 
+ let myName = "Muhammad Jumshaid"
 
   return (
     <>
@@ -26,7 +27,10 @@ function App() {
 {/* <Assignment1/> */}
 {/* <Assignment2/> */}
 {/* <ToggleButton/> */}
-<Assignment_3/>
+{/* <Assignment_3/> */}
+{/* <PropsInReact myName="Jumshaid"/> */}
+<PropsInReact myName={myName} age ={25} mail="jimikhan.1222@gmail.com" addrs= {"Mohalla Sherani wala"}/>
+
    </>
   )
 }
