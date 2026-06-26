@@ -1,5 +1,6 @@
 
 import './App.css'
+import ArrayProps from './ArrayProps'
 import ObjectProps from './ObjectProps'
 // import Assignment_3 from './Assignment_3'
 // import PropsInReact from './PropsInReact'
@@ -15,24 +16,26 @@ import ObjectProps from './ObjectProps'
 function App() {
 //  let myName = "Muhammad Jumshaid"
  
-const employee = {
-  empName : "Jumshaid", 
-  empSalary : 12000, 
-  empAge : 25, 
-  empMail : "jimi@gmail.com"
-}
-const employee2 = {
-  empName : "Jumshaid", 
-  empSalary : 12000, 
-  empAge : 25, 
-  empMail : "jimi@gmail.com"
-}
-const employee3 = {
-  empName : "Jimi", 
-  empSalary : 12000, 
-  empAge : 25, 
-  empMail : "jimi@gmail.com"
-}
+// const employee = {
+//   empName : "Jumshaid", 
+//   empSalary : 12000, 
+//   empAge : 25, 
+//   empMail : "jimi@gmail.com"
+// }
+// const employee2 = {
+//   empName : "Jumshaid", 
+//   empSalary : 12000, 
+//   empAge : 25, 
+//   empMail : "jimi@gmail.com"
+// }
+// const employee3 = {
+//   empName : "Jimi", 
+//   empSalary : 12000, 
+//   empAge : 25, 
+//   empMail : "jimi@gmail.com"
+// }
+
+const empNames = ["Jumahaid", "Shazia", "Rubina", "Tariq","Sohail"]
   return (
     <>
    <h1 style={{color : 'chocolate' }}>Learn react (with) Muhammad Jumshaid</h1>
@@ -50,9 +53,13 @@ const employee3 = {
 {/* <PropsInReact myName="Jumshaid"/> */}
 {/* <PropsInReact myName={myName} age ={25} mail="jimikhan.1222@gmail.com" addrs= {"Mohalla Sherani wala"}/> */}
 
-<ObjectProps user = {employee}/>
+{/* <ObjectProps user = {employee}/>
 <ObjectProps user = {employee2}/>
-<ObjectProps user = {employee3}/>
+<ObjectProps user = {employee3}/> */}
+
+
+
+<ArrayProps emplyoeeName = {empNames}/>
    </>
   )
 }
