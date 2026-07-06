@@ -1,7 +1,9 @@
 
+import { useState } from 'react'
 import './App.css'
-import ArrayProps from './ArrayProps'
-import ObjectProps from './ObjectProps'
+import UseStateAsProps from './UseStateAsProps'
+// import ArrayProps from './ArrayProps'
+// import ObjectProps from './ObjectProps'
 // import Assignment_3 from './Assignment_3'
 // import PropsInReact from './PropsInReact'
 // import Assignment2 from './Assignment2'
@@ -14,7 +16,15 @@ import ObjectProps from './ObjectProps'
 // import CompFun, { flower, Provinces } from './CompFun'
 
 function App() {
-//  let myName = "Muhammad Jumshaid"
+
+// const [empName, setEmpName] = ("Muhammad Jumshaid"); 
+
+// console.log(empName) // M
+// alert(empName)   // M
+// //  let myName = "Muhammad Jumshaid"
+
+const [user, setUser] = useState("Muhammad Jumshaid")
+// const [user, setUser] = useState("")
  
 // const employee = {
 //   empName : "Jumshaid", 
@@ -35,7 +45,7 @@ function App() {
 //   empMail : "jimi@gmail.com"
 // }
 
-const empNames = ["Jumahaid", "Shazia", "Rubina", "Tariq","Sohail"]
+// const empNames = ["Jumahaid", "Shazia", "Rubina", "Tariq","Sohail"]
   return (
     <>
    <h1 style={{color : 'chocolate' }}>Learn react (with) Muhammad Jumshaid</h1>
@@ -57,9 +67,16 @@ const empNames = ["Jumahaid", "Shazia", "Rubina", "Tariq","Sohail"]
 <ObjectProps user = {employee2}/>
 <ObjectProps user = {employee3}/> */}
 
+{/* <ArrayProps emplyoeeName = {empNames}/> */}
+
+{/* <UseStateAsProps userName = {user} /> */}
+{/* if there not any name we should now show this */}
+{
+user && <UseStateAsProps userName = {user} />
+}
+<button onClick={()=>setUser("Saima Batool")} style={{width : '160px', padding : '10px'}}>Change Name</button>
 
 
-<ArrayProps emplyoeeName = {empNames}/>
    </>
   )
 }
