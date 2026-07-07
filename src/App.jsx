@@ -1,7 +1,8 @@
 
 import { useState } from 'react'
 import './App.css'
-import UseStateAsProps from './UseStateAsProps'
+// import UseStateAsProps from './UseStateAsProps'
+import DefaultProps from './DefaultProps'
 // import ArrayProps from './ArrayProps'
 // import ObjectProps from './ObjectProps'
 // import Assignment_3 from './Assignment_3'
@@ -23,7 +24,7 @@ function App() {
 // alert(empName)   // M
 // //  let myName = "Muhammad Jumshaid"
 
-const [user, setUser] = useState("Muhammad Jumshaid")
+// const [user, setUser] = useState("Muhammad Jumshaid")
 // const [user, setUser] = useState("")
  
 // const employee = {
@@ -71,11 +72,17 @@ const [user, setUser] = useState("Muhammad Jumshaid")
 
 {/* <UseStateAsProps userName = {user} /> */}
 {/* if there not any name we should now show this */}
-{
+{/* {
 user && <UseStateAsProps userName = {user} />
 }
-<button onClick={()=>setUser("Saima Batool")} style={{width : '160px', padding : '10px'}}>Change Name</button>
+<button onClick={()=>setUser("Saima Batool")} style={{width : '160px', padding : '10px'}}>Change Name</button> */}
 
+
+
+
+<DefaultProps userName = "Muhammad Jumshaid" />
+<DefaultProps userName = "Jimi" />
+<DefaultProps  />
 
    </>
   )
