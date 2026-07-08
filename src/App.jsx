@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 // import UseStateAsProps from './UseStateAsProps'
 import DefaultProps from './DefaultProps'
+import PassJsxToProps from './PassJsxToProps'
 // import ArrayProps from './ArrayProps'
 // import ObjectProps from './ObjectProps'
 // import Assignment_3 from './Assignment_3'
@@ -80,10 +81,38 @@ user && <UseStateAsProps userName = {user} />
 
 
 
-<DefaultProps userName = "Muhammad Jumshaid" />
+{/* <DefaultProps userName = "Muhammad Jumshaid" />
 <DefaultProps userName = "Jimi" />
-<DefaultProps  />
+<DefaultProps  /> */}
 
+
+{/* <PassJsxToProps>
+  <h1>Jumshaid</h1>
+</PassJsxToProps> */}
+
+
+
+<PassJsxToProps textCol="orange">
+  <h1 style={{color : 'red'}}>Student Card</h1>
+  <h2>Student Name : Muhammad Jumshaid</h2>
+  <h2>Father's Name : Ubaid Ullah</h2>
+  <h2>Class : 7th</h2>
+  <h2>Roll No : 12</h2>
+</PassJsxToProps>
+<PassJsxToProps textCol="blue">
+  <h1 style={{color : 'red'}}>Student Card</h1>
+  <h2>Student Name : Muhammad Jumshaid</h2>
+  <h2>Father's Name : Ubaid Ullah</h2>
+  <h2>Class : 7th</h2>
+  <h2>Roll No : 12</h2>
+</PassJsxToProps>
+<PassJsxToProps>
+  <h1 style={{color : 'red'}}>Student Card</h1>
+  <h2>Student Name : Muhammad Jumshaid</h2>
+  <h2>Father's Name : Ubaid Ullah</h2>
+  <h2>Class : 7th</h2>
+  <h2>Roll No : 12</h2>
+</PassJsxToProps>
    </>
   )
 }

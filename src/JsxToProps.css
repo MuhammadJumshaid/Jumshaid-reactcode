@@ -1,0 +1,7 @@
+h1, h2{
+    all : revert;
+}
+/* 
+h1, h2{
+    all : unset;
+} */
