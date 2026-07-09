@@ -1,9 +1,10 @@
 
 import { useState } from 'react'
 import './App.css'
+import InputBoxData from './InputBoxData'
 // import UseStateAsProps from './UseStateAsProps'
-import DefaultProps from './DefaultProps'
-import PassJsxToProps from './PassJsxToProps'
+// import DefaultProps from './DefaultProps'
+// import PassJsxToProps from './PassJsxToProps'
 // import ArrayProps from './ArrayProps'
 // import ObjectProps from './ObjectProps'
 // import Assignment_3 from './Assignment_3'
@@ -91,7 +92,7 @@ user && <UseStateAsProps userName = {user} />
 </PassJsxToProps> */}
 
 
-
+{/* 
 <PassJsxToProps textCol="orange">
   <h1 style={{color : 'red'}}>Student Card</h1>
   <h2>Student Name : Muhammad Jumshaid</h2>
@@ -112,7 +113,12 @@ user && <UseStateAsProps userName = {user} />
   <h2>Father's Name : Ubaid Ullah</h2>
   <h2>Class : 7th</h2>
   <h2>Roll No : 12</h2>
-</PassJsxToProps>
+</PassJsxToProps> */}
+
+
+<InputBoxData/>
+
+
    </>
   )
 }
