@@ -2,6 +2,7 @@
 // import { useState } from 'react'
 import './App.css'
 import SpreadOperator from './SpreadOperator'
+import SpreadOperatorInReact from './SpreadOperatorInReact'
 // import InputBoxData from './InputBoxData'
 // import ControlledComponents from './ControlledComponents'
 // import UseStateAsProps from './UseStateAsProps'
@@ -123,7 +124,8 @@ user && <UseStateAsProps userName = {user} />
 {/* <ControlledComponents/> */}
 
 
-<SpreadOperator/>
+{/* <SpreadOperator/> */}
+<SpreadOperatorInReact/>
 
    </>
   )
