@@ -1,8 +1,9 @@
 
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
-import InputBoxData from './InputBoxData'
-import ControlledComponents from './ControlledComponents'
+import SpreadOperator from './SpreadOperator'
+// import InputBoxData from './InputBoxData'
+// import ControlledComponents from './ControlledComponents'
 // import UseStateAsProps from './UseStateAsProps'
 // import DefaultProps from './DefaultProps'
 // import PassJsxToProps from './PassJsxToProps'
@@ -119,8 +120,10 @@ user && <UseStateAsProps userName = {user} />
 
 {/* <InputBoxData/> */}
 
-<ControlledComponents/>
+{/* <ControlledComponents/> */}
 
+
+<SpreadOperator/>
 
    </>
   )
