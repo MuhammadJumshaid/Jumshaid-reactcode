@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import './App.css'
 import InputBoxData from './InputBoxData'
+import ControlledComponents from './ControlledComponents'
 // import UseStateAsProps from './UseStateAsProps'
 // import DefaultProps from './DefaultProps'
 // import PassJsxToProps from './PassJsxToProps'
@@ -116,7 +117,9 @@ user && <UseStateAsProps userName = {user} />
 </PassJsxToProps> */}
 
 
-<InputBoxData/>
+{/* <InputBoxData/> */}
+
+<ControlledComponents/>
 
 
    </>
