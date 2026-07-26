@@ -1,6 +1,8 @@
 
 // import { useState } from 'react'
 import './App.css'
+import CheckBox from './CheckBox'
+import RadioBtnAdnDropdown from './RadioBtnAndDropdown'
 import SpreadOperator from './SpreadOperator'
 import SpreadOperatorInReact from './SpreadOperatorInReact'
 // import InputBoxData from './InputBoxData'
@@ -125,7 +127,9 @@ user && <UseStateAsProps userName = {user} />
 
 
 {/* <SpreadOperator/> */}
-<SpreadOperatorInReact/>
+{/* <SpreadOperatorInReact/> */}
+{/* <CheckBox/> */}
+<RadioBtnAdnDropdown/>
 
    </>
   )
