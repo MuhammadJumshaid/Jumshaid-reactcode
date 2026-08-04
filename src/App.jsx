@@ -1,10 +1,11 @@
 
 // import { useState } from 'react'
 import './App.css'
-import CheckBox from './CheckBox'
-import RadioBtnAdnDropdown from './RadioBtnAndDropdown'
-import SpreadOperator from './SpreadOperator'
-import SpreadOperatorInReact from './SpreadOperatorInReact'
+import TableAndArray from './TableAndArray'
+// import CheckBox from './CheckBox'
+// import RadioBtnAdnDropdown from './RadioBtnAndDropdown'
+// import SpreadOperator from './SpreadOperator'
+// import SpreadOperatorInReact from './SpreadOperatorInReact'
 // import InputBoxData from './InputBoxData'
 // import ControlledComponents from './ControlledComponents'
 // import UseStateAsProps from './UseStateAsProps'
@@ -129,8 +130,10 @@ user && <UseStateAsProps userName = {user} />
 {/* <SpreadOperator/> */}
 {/* <SpreadOperatorInReact/> */}
 {/* <CheckBox/> */}
-<RadioBtnAdnDropdown/>
+{/* <RadioBtnAdnDropdown/> */}
 
+
+<TableAndArray/>
    </>
   )
 }
