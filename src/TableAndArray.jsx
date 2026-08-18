@@ -1,3 +1,5 @@
+import EmpCard from "./EmpCard"
+
 const TableAndArray = () => {
 
     const employeeInf = [
@@ -30,40 +32,16 @@ const TableAndArray = () => {
             Email: "Ali@gmail.com"
         },
     ]
-
     return (
         <div>
-            <h1>Array Data in Table</h1>
-
-            {/* <table border={{border : 1}}> */}
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>Salary</th>
-                        <th>Age</th>
-                        <th>Email</th>
-                    </tr>
-                </thead>
-                <tbody>
-
+            <h1>Array Data in Cards</h1>
                     {
-                        employeeInf.map(user => 
-                            (
-                           <tr>
-                                <td>{user.Id}</td>
-                                <td>{user.Name}</td>
-                                <td>{user.Salary}</td>
-                                <td>{user.Age}</td>
-                                <td>{user.Email}</td>
-                            </tr>
-                            )
-                        )
+                        employeeInf.map((user) => (
+                            <div key={user.Id}>
+                                <EmpCard data = {user}/>
+                           </div>
+                            ))
                     }
-
-                </tbody>
-            </table>
         </div>
     )
 }
